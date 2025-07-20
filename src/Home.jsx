@@ -11,7 +11,7 @@ muted
 loop
  playsInline
 className="absolute top-0 left-0 w-full h-full object-cover z-0 blur-sm">
-<source src="/bg-1.mp4" type="video/mp4" />
+<source src="bg-1.mp4" type="video/mp4" />
  Your browser does not support the video tag.
 </video>
 
