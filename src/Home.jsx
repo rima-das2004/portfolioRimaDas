@@ -11,7 +11,7 @@ muted
 loop
  playsInline
 className="absolute top-0 left-0 w-full h-full object-cover z-0 blur-sm">
-<source src="public/bg-1.mp4" type="video/mp4" />
+<source src="/bg-1.mp4" type="video/mp4" />
  Your browser does not support the video tag.
 </video>
 
@@ -39,7 +39,7 @@ className="absolute top-0 left-0 w-full h-full object-cover z-0 blur-sm">
     <i className="fa fa-instagram transition-all duration-350 ease-linear text-white hover:bg-gradient-to-r hover:from-indigo-500 hover:to-teal-400 hover:bg-clip-text hover:text-transparent"></i>
   </a>
 </div>
-    <a href="public/RimaDasCSE.pdf" download={"RimaDas.pdf"} className="rounded-md border-2 semibold border-purple-500 px-3 py-2 mx-2 bg-purple-500 transition-all duration-350 ease-linear hover:bg-transparent">Download CV
+    <a href="/RimaDasCSE.pdf" download={"RimaDas.pdf"} className="rounded-md border-2 semibold border-purple-500 px-3 py-2 mx-2 bg-purple-500 transition-all duration-350 ease-linear hover:bg-transparent">Download CV
     </a>
     <a href="/contact" className="rounded-md semibold transition-all duration-350 ease-linear border-2 border-purple-500 px-3 py-2 hover:bg-purple-500 ">Contact Me</a>
     </div>
