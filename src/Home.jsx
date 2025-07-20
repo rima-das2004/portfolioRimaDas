@@ -1,5 +1,6 @@
 import React from "react";
 import About from './About'
+import { Link } from "react-router-dom";
 export default function Home() {
 return (
     <>
@@ -41,7 +42,7 @@ className="absolute top-0 left-0 w-full h-full object-cover z-0 blur-sm">
 </div>
     <a href="/RimaDasCSE.pdf" download={"RimaDas.pdf"} className="rounded-md border-2 semibold border-purple-500 px-3 py-2 mx-2 bg-purple-500 transition-all duration-350 ease-linear hover:bg-transparent">Download CV
     </a>
-    <a href="/contact" className="rounded-md semibold transition-all duration-350 ease-linear border-2 border-purple-500 px-3 py-2 hover:bg-purple-500 ">Contact Me</a>
+    <Link href="/contact" className="rounded-md semibold transition-all duration-350 ease-linear border-2 border-purple-500 px-3 py-2 hover:bg-purple-500 ">Contact Me</Link>
     </div>
         
 </div>

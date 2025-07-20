@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 export default function About(){
     return <>
         <div className="about w-full mx-auto flex flex-wrap border-black overflow-hidden h-auto mt-10 relative pb-10 justify-center" style={{maxWidth:'1280px'}}>
@@ -27,8 +28,8 @@ export default function About(){
                     </p>
                     <br />
                     <div className="link flex flex-wrap gap-2">
-                        <a className="rounded-md border-2 semibold border-purple-500 px-3 py-2 mr-2 bg-purple-500 transition-all duration-350 ease-linear text-right hover:bg-transparent" href="/project">Visit My Project Section</a> 
-                    <a className="rounded-md semibold transition-all duration-350 ease-linear border-2 border-purple-500 px-3 py-2 hover:bg-purple-500" href="/contact">Feel free to ask any Queries</a>
+                        <Link className="rounded-md border-2 semibold border-purple-500 px-3 py-2 mr-2 bg-purple-500 transition-all duration-350 ease-linear text-right hover:bg-transparent" href="/project">Visit My Project Section</Link> 
+                    <Link className="rounded-md semibold transition-all duration-350 ease-linear border-2 border-purple-500 px-3 py-2 hover:bg-purple-500" href="/contact">Feel free to ask any Queries</Link>
                     </div>
                     
 
