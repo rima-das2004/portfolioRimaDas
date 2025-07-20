@@ -4,7 +4,7 @@ export default function About(){
         <div className="about w-full mx-auto flex flex-wrap border-black overflow-hidden h-auto mt-10 relative pb-10 justify-center" style={{maxWidth:'1280px'}}>
             <div className="a-f flex-1 min-w-[450px]">
              <div className="img w-100 h-100 overflow-hidden flex justify-center relative rounded-4xl z-10">
-                    <img src="public/RimaDas.jpg" className="w-full" alt="" style={{filter:'grayscale(0.2)'}}/>
+                    <img src="RimaDas.jpg" className="w-full" alt="" style={{filter:'grayscale(0.2)'}}/>
                 </div>
                 <div className="imgOverlay absolute top-0 z-0 w-120 h-100 bg-linear-to-bl from-violet-500 to-fuchsia-500 rounded-4xl rotate-y-33 rotate-z-4 opacity-50"></div>
                
