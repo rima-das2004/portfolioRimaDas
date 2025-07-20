@@ -28,8 +28,8 @@ export default function About(){
                     </p>
                     <br />
                     <div className="link flex flex-wrap gap-2">
-                        <Link className="rounded-md border-2 semibold border-purple-500 px-3 py-2 mr-2 bg-purple-500 transition-all duration-350 ease-linear text-right hover:bg-transparent" href="/project">Visit My Project Section</Link> 
-                    <Link className="rounded-md semibold transition-all duration-350 ease-linear border-2 border-purple-500 px-3 py-2 hover:bg-purple-500" href="/contact">Feel free to ask any Queries</Link>
+                        <Link className="rounded-md border-2 semibold border-purple-500 px-3 py-2 mr-2 bg-purple-500 transition-all duration-350 ease-linear text-right hover:bg-transparent" to="/project">Visit My Project Section</Link> 
+                    <Link className="rounded-md semibold transition-all duration-350 ease-linear border-2 border-purple-500 px-3 py-2 hover:bg-purple-500" to="/contact">Feel free to ask any Queries</Link>
                     </div>
                     
 
